@@ -1,0 +1,19 @@
+Random notes for JS ==> JQuery
+
+To access an element with jquery:
+let list = $('.list') -- utilize $() with . or #
+
+Append or add to an element:
+list.append(<li>list something</li>); --JS
+let li = $('<li></li>'); --JQ
+
+Get Value from index:
+let inputValue = $('#input').val()
+li.append(inputValue);
+
+CSS Strike through by adding class:
+list.addClass("strike");
+
+Hide list item//delete from view (display:none):
+list.addClass('delete');
+
